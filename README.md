@@ -9,7 +9,7 @@
 ## 安装
 
 ```plain text
-帮我安装 https://github.com/Twisuki/whatsnext 的 skill
+帮我安装 https://github.com/loster12520/whatsnext-dsh 的 skill
 ```
 
 ### DeepSeek Harness (DSH)
@@ -20,10 +20,10 @@
 dsh plugin --profile web add <本仓库绝对路径>
 ```
 
-远程安装(仓库推到可访问的 git 地址后):
+远程安装(本仓库是 DSH 插件入口; 上游 `Twisuki/whatsnext` 不再提供该插件包):
 
 ```bash
-dsh plugin --profile web add github:Twisuki/whatsnext
+dsh plugin --profile web add github:loster12520/whatsnext-dsh
 ```
 
 重启 DSH 后, 输入 `/` 可看到 `wn` / `wn-init` / `wn-start` / `wn-resume` / `wn-save` / `wn-finish` / `wn-stop` / `wn-promote` 八条命令.
